@@ -42,6 +42,7 @@ enum Commands {
     /// 初始化配置文件
     Init,
     /// 启动 Claude 会话（使用当前配置的模型）
+    #[command(alias = "s")]
     Start,
     /// 别名管理
     #[command(subcommand)]
