@@ -20,6 +20,7 @@ enum Commands {
         model_name: String,
     },
     /// 列出所有可用模型
+    #[command(alias = "l")]
     List,
     /// 添加新模型配置
     Add {
